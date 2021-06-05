@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    height: 600px;
+    margin: 0;
+    background-color: tomato;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.item{
+    background-color: aqua;
+    width: 30%;
+    height: 5%;
+    text-align: center;
+    font-size: 80%;
+}
